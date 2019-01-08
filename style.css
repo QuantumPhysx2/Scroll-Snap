@@ -1,32 +1,59 @@
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
 .slider {
-	font-family: sans-serif;
-	scroll-snap-type: mandatory;
-	scroll-snap-points-y: repeat(100vw);
-	scroll-snap-type: x mandatory;
-	display: flex;
-	overflow-x: scroll;
+  font-family: sans-serif;
+  scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(100vw);
+  scroll-snap-type: x mandatory;
+  display: flex;
+  overflow-x: scroll;
 }
+
 section {
-	border-right: 1px solid white;
-	padding: 1rem;
-	min-width: 100vw;
-	height: 100vh;
-	scroll-snap-align: start;
-	text-align: center;
-	position: relative;
+  border-right: 1px solid white;
+  padding: 1rem;
+  min-width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+  text-align: center;
+  position: relative;
 }
-h1	{
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	text-align: center;
-	color: white;
-	width: 100%;
-	left: 0;
-	font-size: calc(1rem + 3vw);
+
+h1 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: white;
+  width: 100%;
+  left: 0;
+  font-size: calc(1rem + 3vw);
+}
+
+.child:nth-child(1) {
+  background: red;
+}
+
+.child:nth-child(2) {
+  background: green;
+}
+
+.child:nth-child(2) {
+  background: blue;
+}
+
+.child:nth-child(3) {
+  background: yellow;
+}
+
+.child:nth-child(4) {
+  background: orange;
+}
+
+.child:nth-child(5) {
+  background: pink;
 }
